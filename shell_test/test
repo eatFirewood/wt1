@@ -1,0 +1,10 @@
+regexp:
+grep -e wt a main.c
+a:wtwt
+a:wt
+a:wt 1
+main.c:wta
+
+grep -w wt a main.c
+a:wt
+a:wt 1
